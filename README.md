@@ -14,6 +14,7 @@ It is also important to note:
 5.	The software is cross platform and so it works on both Windows and Linux;
 
 '''
+xml
 <profile labname="LRTE" commtype="SCP">
   <scpuser>cal-lrte</scpuser>
   <accesslink>tempo.inmetro.gov.br</accesslink>
