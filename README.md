@@ -14,15 +14,15 @@ It is also important to note:
 5.	The software is cross platform and so it works on both Windows and Linux;
 6.	The client profile can be customized and multiples profiles can be used. Example:
 
-  	<profile labname="INXE" commtype="FTP">
-          <scpuser>INXE</scpuser>
-          <accesslink>bipm tai ftp address</accesslink>
-          <username>INXE</username>
-          <password></password>
-          <labid>NX</labid>
-          <prefix>GZNXRA</prefix>
-          <rxid>RA</rxid>
-        </profile>
+      	<profile labname="INXE" commtype="FTP">
+              <scpuser>INXE</scpuser>
+              <accesslink>bipm tai ftp address</accesslink>
+              <username>INXE</username>
+              <password></password>
+              <labid>NX</labid>
+              <prefix>GZNXRA</prefix>
+              <rxid>RA</rxid>
+            </profile>
 
 
 ***Note: Due to security concerns, this code do not contain the full features used in laboratory***
