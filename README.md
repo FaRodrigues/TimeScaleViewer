@@ -18,7 +18,7 @@ It is also important to note:
               <scpuser>INXE</scpuser>
               <accesslink>bipm tai ftp address</accesslink>
               <username>INXE</username>
-              <password></password>
+              <password>bipm tai ftp password</password>
               <labid>NX</labid>
               <prefix>GZNXRA</prefix>
               <rxid>RA</rxid>
