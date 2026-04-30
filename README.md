@@ -10,6 +10,7 @@ It is also important to note:
 1.	The software monitors the frequency offset applied to the equipment HROG-10 using the command FREQ?;
 2.	The software can monitor the frequency offset scheduled to be applied to the equipment HROG-10 and set a new frequency offset using the command FREQ [freq value];
 3.	The software is portable so it can be used both from a pen drive as from a web server;
-4.	The software is cross platform and so it works on both Windows and Linux;
+4.	TimeScaleViewer can use SCP of FTP protocol, so UTC(INXE) use this software to monitor CGGTTS files uploaded to BIPM TAI;
+5.	The software is cross platform and so it works on both Windows and Linux;
 
 ***Note: Due to security concerns, this code do not contain the full features used in laboratory***
