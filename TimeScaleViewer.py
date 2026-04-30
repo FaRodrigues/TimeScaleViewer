@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+# TimeScaleViewer version 1.5 (2026)
+# Autor: Fernando Rodrigues (Inmetro)
+
 import base64
 import io
 import itertools
@@ -104,6 +108,7 @@ ultimate_freq_corr_value = 0
 warnings.filterwarnings("ignore")
 ser = serial.Serial()
 
+
 def getDateFromMJD(MJD):
     tmjd = Time(MJD, format='mjd')
     stringdate = Time(tmjd.to_value('iso'), out_subfmt='date').iso
@@ -118,6 +123,7 @@ def getFramedMessage(midmsg):
 
 steerHistoryFile = ET.parse(os.path.join('.', 'xml', 'freq_steer_history.xml'))
 steerHistoryFileRoot = steerHistoryFile.getroot()
+
 
 def updateScheduleConfig():
     paramDict = {}
@@ -150,6 +156,7 @@ def updateScheduleConfig():
         print(bex)
     return paramDict
 
+
 # Opções de alarme descritas no manual do equipamento e definidas no código na forma de um dict
 optionsAlarmDict = {
     1: "External reference error",
@@ -180,6 +187,7 @@ def getMjdFromCggttsFileName(prefixo, cggttsfilename):
 
 def getDateFromCggttsFileName(prefixo, cggttsfilename):
     return getDateFromMJD(getMjdFromCggttsFileName(prefixo, cggttsfilename))
+
 
 def getFrequencyCorrection(freq_offset_ini, Delta_t_desejada, angular_coef, delta_t_final, od, cd):
     freq_offset_uHz = freq_offset_ini * 1000000  # Em microHertz
@@ -466,7 +474,6 @@ class UserInterfaceSteer(QMainWindow, threading.Thread):
 
         self.checkIfComPorts()
 
-
         def setDataprocesstoken(dpt):
             self.dataprocesstoken = dpt
 
@@ -699,7 +706,6 @@ class UserInterfaceSteer(QMainWindow, threading.Thread):
                 # dictInterval = Counter(dequeInterval)
                 uniqueIntervalValues = list(dequeInterval)
             return uniqueIntervalValues
-
 
         def fromCalendar(clickeddate):
             # print(clickeddate)
@@ -1081,7 +1087,8 @@ class UserInterfaceSteer(QMainWindow, threading.Thread):
                     sftp = paramiko.SFTPClient.from_transport(ssh.get_transport())
                     # remotedir = "./GNSS/data/UTCr/{}/CGGTTS".format(labname)
                     # print('Conexão SCP realizada')
-                    remotedir = "/home/{username}/data/UTCr/{lab}/{rxid}/CGGTTS".format(username=contextuser,lab=labname, rxid=contextrxid)
+                    remotedir = "/home/{username}/data/UTCr/{lab}/{rxid}/CGGTTS".format(username=contextuser,
+                                                                                        lab=labname, rxid=contextrxid)
                     # print(f'remotedir = {remotedir}')
                     listOfRemotefiles = sftp.listdir(remotedir)
                     sortedListOfRemotefiles = np.sort(listOfRemotefiles)
@@ -1399,7 +1406,6 @@ class UserInterfaceSteer(QMainWindow, threading.Thread):
 
     def getChildrenObjectUI(self, objtype, chave):
         return list(self.findChildren(objtype, chave))[0]
-
 
 
 StyleSheet = '''
