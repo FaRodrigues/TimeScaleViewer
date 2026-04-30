@@ -12,7 +12,7 @@ It is also important to note:
 3.	The software is portable so it can be used both from a pen drive as from a web server;
 4.	TimeScaleViewer can use SCP of FTP protocol, so UTC(INXE) use this software to monitor CGGTTS files uploaded to BIPM TAI;
 5.	The software is cross platform and so it works on both Windows and Linux;
-6.	The client profiles defined in the file *xml/clientprofiles.xml* can be customized and multiples profile nodes can be added. Example:
+6.	The client profiles defined in the file *xml/clientprofiles.xml* can be customized and multiples child nodes <profile> nodes can be added. Example:
 
       	<profile labname="INXE" commtype="FTP">
               <scpuser>INXE</scpuser>
