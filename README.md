@@ -13,17 +13,16 @@ It is also important to note:
 4.	TimeScaleViewer can use SCP of FTP protocol, so UTC(INXE) use this software to monitor CGGTTS files uploaded to BIPM TAI;
 5.	The software is cross platform and so it works on both Windows and Linux;
 
-"""
-xml
-<profile labname="LRTE" commtype="SCP">
-  <scpuser>cal-lrte</scpuser>
-  <accesslink>tempo.inmetro.gov.br</accesslink>
-  <username>cal-lrte</username>
-  <password></password>
-  <labid>LR</labid>
-  <prefix>GZLRRO</prefix>
-  <rxid>RO</rxid>
-</profile>
-"""
+
+        <profile labname="LRTE" commtype="SCP">
+          <scpuser>cal-lrte</scpuser>
+          <accesslink>tempo.inmetro.gov.br</accesslink>
+          <username>cal-lrte</username>
+          <password></password>
+          <labid>LR</labid>
+          <prefix>GZLRRO</prefix>
+          <rxid>RO</rxid>
+        </profile>
+
 
 ***Note: Due to security concerns, this code do not contain the full features used in laboratory***
