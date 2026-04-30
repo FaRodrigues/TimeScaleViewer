@@ -1,5 +1,6 @@
-# This Python file uses the following encoding: utf-8
-# Autor: Fernando Alves Rodrigues (Dimci/Dmtic)
+# -*- coding: utf-8 -*-
+# TimeScaleViewer version 1.5 (2026)
+# Autor: Fernando Rodrigues (Inmetro)
 
 import math
 import os

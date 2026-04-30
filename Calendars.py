@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+# TimeScaleViewer version 1.5 (2026)
+# Autor: Fernando Rodrigues (Inmetro)
+
 import time
 
 import numpy as np
