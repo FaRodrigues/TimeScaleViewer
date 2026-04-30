@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clientprofiles>
+    <profile labname="LRTE" commtype="SCP">
+        <scpuser>cal-lrte</scpuser>
+        <accesslink>tempo.inmetro.gov.br</accesslink>
+        <username>cal-lrte</username>
+        <password>QVlRHZlbo5UZsp1VhZEZaFWRwFnVrBDeWZlWyV2RxUlVygnVaZlW0ImVjp3VsplTVJDa1ZlbOdnVsVVP</password>
+        <labid>LR</labid>
+        <prefix>GZLRRO</prefix>
+        <rxid>RO</rxid>
+    </profile>
+</clientprofiles>

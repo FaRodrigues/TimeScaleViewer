@@ -1,0 +1,16 @@
+<steerparams>
+    <steerscheduled>
+        <mjdtoapplysteer>56000</mjdtoapplysteer>
+        <timetoapplysteer>17:48</timetoapplysteer>
+        <hrogmode>5</hrogmode>
+        <hrogoffsetvalue>0</hrogoffsetvalue>
+        <scheduledoffsetvalue>0.5</scheduledoffsetvalue>
+        <comport>5</comport>
+    </steerscheduled>
+    <laststeerapplied>
+        <mjdapplied>56000</mjdapplied>
+        <timeapplied>17:30</timeapplied>
+        <appliedoffsetvalue>1</appliedoffsetvalue>
+    </laststeerapplied>
+</steerparams>
+

@@ -1,0 +1,25 @@
+CGGTTS     GENERIC DATA FORMAT VERSION = 2E
+REV DATE = 2025-11-01
+RCVR = PolaRx5TR (5.6.0)     sbf2cggtts-1.5.0
+CH = 80
+IMS = PolaRx5TR
+LAB = LRTE
+X = 3967035.920 m
+Y = -4390028.540 m
+Z = -2375644.640 m
+FRAME = ITRF
+COMMENTS = LS=18; ElMask=10deg; 'Generated from the SBF in 2025-12-12 at 00:22:01'
+INT DLY = 24.9 ns (GPS P1),  15.7 ns (GPS P2)     CAL_ID = 1201-2025
+CAB DLY = 103.1 ns
+REF DLY = 47.2 ns
+REF = UTC(LRTE)
+CKSUM = ef
+
+SAT CL  MJD  STTIME TRKL ELV AZTH   REFSV      SRSV     REFSYS    SRSYS  DSG IOE MDTR SMDT MDIO SMDI MSIO SMSI ISG FR HC FRC CK
+             hhmmss  s  .1dg .1dg    .1ns     .1ps/s     .1ns    .1ps/s .1ns     .1ns.1ps/s.1ns.1ps/s.1ns.1ps/s.1ns
+G03 FF 61021 000600  780 218  246    -6257960    186          -2     99   56  98  197   62  930    8  930    8  45  0  0 L3P 01
+G04 FF 61021 000600  780 326  966     -307971    -22           0      5   27  34  136   10  376   29  376   29  20  0  0 L3P C6
+G07 FF 61021 000600  780 570 2090     1196872     60           3      5   12 115   88    2  378   14  378   14  10  0  0 L3P BA
+G09 FF 61021 000600  780 553 1408    -7671007    -35          10    -17   15 100   89   -1  291   20  291   20  12  0  0 L3P FD
+G14 FF 61021 000600  780 260 3384    -7211829   -129          24   -100   56   2  168  -44  142   36  142   36  57  0  0 L3P 35
+G30 FF 61021 000600  780 455 2552     -523257   -123          30     -4   17  67  103   -4  248  -17  248  -17  14  0  0 L3P 11

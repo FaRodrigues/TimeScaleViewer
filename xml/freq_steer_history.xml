@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<timescalehistory>
+    <freqcorrections>
+        <freqcorrection applyedmjd="60974">
+            <timeapplyed>23:38:00</timeapplyed>
+            <previousoffsetvalue>0.0</previousoffsetvalue>
+            <applyedoffsetvalue>0.5</applyedoffsetvalue>
+        </freqcorrection>
+    <freqcorrection applyedmjd="60975"><timeapplyed>09:18:00</timeapplyed><previousoffsetvalue>0.0</previousoffsetvalue><applyedoffsetvalue>0.5</applyedoffsetvalue></freqcorrection><freqcorrection applyedmjd="60988"><timeapplyed>19:38:00</timeapplyed><previousoffsetvalue>0.0</previousoffsetvalue><applyedoffsetvalue>0.5</applyedoffsetvalue></freqcorrection><freqcorrection applyedmjd="60988"><timeapplyed>19:57:00</timeapplyed><previousoffsetvalue>0.0</previousoffsetvalue><applyedoffsetvalue>0.5</applyedoffsetvalue></freqcorrection><freqcorrection applyedmjd="60988"><timeapplyed>20:01:00</timeapplyed><previousoffsetvalue>0.0</previousoffsetvalue><applyedoffsetvalue>0.5</applyedoffsetvalue></freqcorrection><freqcorrection applyedmjd="60989"><timeapplyed>17:33:00</timeapplyed><previousoffsetvalue>0.0</previousoffsetvalue><applyedoffsetvalue>0.5</applyedoffsetvalue></freqcorrection></freqcorrections>
+</timescalehistory>

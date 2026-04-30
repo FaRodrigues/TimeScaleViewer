@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<timescalehistory>
+    <freqcorrections>
+        <freqcorrection>
+            <mjd>60985</mjd>
+            <hrogoffsetvalue>0</hrogoffsetvalue>
+            <appliedoffsetvalue>1.002</appliedoffsetvalue>
+        </freqcorrection>
+        <freqcorrection>
+            <mjd>60986</mjd>
+            <hrogoffsetvalue>0</hrogoffsetvalue>
+            <appliedoffsetvalue>1.002</appliedoffsetvalue>
+        </freqcorrection>
+        <freqcorrection>
+            <mjd>60987</mjd>
+            <hrogoffsetvalue>0</hrogoffsetvalue>
+            <appliedoffsetvalue>1.002</appliedoffsetvalue>
+        </freqcorrection>
+        <freqcorrection>
+            <mjd>60988</mjd>
+            <hrogoffsetvalue>0</hrogoffsetvalue>
+            <appliedoffsetvalue>1.002</appliedoffsetvalue>
+        </freqcorrection>
+    </freqcorrections>
+</timescalehistory>
