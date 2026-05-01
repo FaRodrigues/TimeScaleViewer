@@ -16,7 +16,7 @@ It is also important to note:
 
     ### Example:
       
-            	<profile labname="INXE" commtype="**FTP**">
+            	<profile labname="INXE" commtype="FTP">
                     <scpuser>INXE</scpuser>
                     <accesslink>bipm tai ftp address</accesslink>
                     <username>INXE</username>
