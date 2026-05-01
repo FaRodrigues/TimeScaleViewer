@@ -14,7 +14,7 @@ It is also important to note:
 5.	The software is cross platform and so it works on both Windows and Linux;
 6.	The client profiles defined in the file ***/xml/clientprofiles.xml*** can be customized and multiples child nodes **\<profile\>** nodes can be added.
 <br/><br/>
-    Example:
+    ### Example:
       
             	<profile labname="INXE" commtype="FTP">
                     <scpuser>INXE</scpuser>
