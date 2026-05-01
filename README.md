@@ -18,9 +18,9 @@ It is also important to note:
       
             	<profile labname="INXE" commtype="FTP">
                     <scpuser>INXE</scpuser>
-                    <accesslink>bipm tai ftp address</accesslink>
+                    <accesslink>lab bipm tai ftp address</accesslink>
                     <username>INXE</username>
-                    <password>bipm tai ftp password</password>
+                    <password>lab bipm tai ftp password</password>
                     <labid>NX</labid>
                     <prefix>GZNXRA</prefix>
                     <rxid>RA</rxid>
