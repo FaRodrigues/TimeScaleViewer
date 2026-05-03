@@ -5,7 +5,7 @@
 The software was developed to allow colaboration between Inmetro and other laboratories like LRTE (São Carlos).
 
 The software provides a user interface to view CGGTTS data and use the same files to calculate the time drift of the respective clock relative to GNSS time and relative to UTC forecasts.
-This tool incorporates an RS-232 serial control interface for the HROG-10 microphase stepper equipment manufactured by SpectraDynamics. Since the HROG-10 does not use a standard programmable interface like VISA (Virtual Instrument Software Architecture), I developed a dictionary for this software based on SpectraDynamics' HROG-10 proprietary [ASCII Command Set commands](https://spectradynamics.com/manuals/HROG-10-2024.pdf). Additionally, TimeScaleViewer provides a decoder for the "error condition codes" of the HROG-10's weighted numeric alarm code.
+This tool incorporates an RS-232 serial control interface for the HROG-10 microphase stepper equipment manufactured by SpectraDynamics. Since the HROG-10 does not use a standard programmable interface like VISA (Virtual Instrument Software Architecture), I developed a dictionary for this software based on SpectraDynamics' HROG-10 proprietary [ASCII Command Set](https://spectradynamics.com/manuals/HROG-10-2024.pdf). Additionally, TimeScaleViewer provides a decoder for the "error condition codes" of the HROG-10's weighted numeric alarm code.
 It is also important to note:
 1.	The software monitors the frequency offset applied to the equipment HROG-10 using the command FREQ?;
 2.	The software can monitor the frequency offset scheduled to be applied to the equipment HROG-10 and set a new frequency offset using the command FREQ [freq value];
