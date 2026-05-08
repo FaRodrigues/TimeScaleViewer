@@ -190,22 +190,8 @@ def getDateFromCggttsFileName(prefixo, cggttsfilename):
 
 
 def getFrequencyCorrection(freq_offset_ini, Delta_t_desejada, angular_coef, delta_t_final, od, cd):
+    # This function was disabled
     resultado = None
-    # freq_offset_uHz = freq_offset_ini * 1000000  # Em microHertz
-    # print("freq_offset_uHz = %2.4f" % freq_offset_uHz)
-    # delta_T = (445 * 16 * 60)  # (Intervalo de tempo em que o bias ocorreu - em segundos)
-    # deriva_freq_obs = angular_coef * (1 / np.power(10, 9)) * (1 / delta_T)  # (delta_t / delta_T);  # (Em Hz)
-    # print("deriva_freq_obs = %5.20f" % deriva_freq_obs)
-    # deriva_freq_obs_uHz = deriva_freq_obs * np.power(10, 7)  # Em microHertz
-    # print("deriva_freq_obs_uHz = %2.12f" % deriva_freq_obs_uHz)
-    # T_correction = 2 * delta_T  # (Intervalo de tempo para ser aplicada a correção - em segundos)
-    # delta_t_correction = delta_t_final
-    # Delta_t = (Delta_t_desejada - delta_t_correction) * 0.000000001
-    # print("Delta_t = %2.12f" % Delta_t)
-    # df_correction = -(Delta_t / T_correction) * 10000000  # (Em Hz)
-    # df_correction_uHz = df_correction * 1000000  # Em microHertz
-    # print("df_correction_uHz = %2.12f" % df_correction_uHz)
-    # resultado = freq_offset_uHz + deriva_freq_obs_uHz - df_correction_uHz
     return resultado
 
 
