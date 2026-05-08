@@ -191,7 +191,7 @@ def getDateFromCggttsFileName(prefixo, cggttsfilename):
 
 def getFrequencyCorrection(freq_offset_ini, Delta_t_desejada, angular_coef, delta_t_final, od, cd):
     # This function was disabled
-    resultado = None
+    resultado = 0
     return resultado
 
 
